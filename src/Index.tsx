@@ -7,7 +7,7 @@ declare global {
     interface Window { CoveoClient: Coveo.Client; }
 }
 
-export const register = (application: Vapor.MainApplication) => {
+export const register = (application: Vapor.Application) => {
     application.registerApp("Sources", "Sources", {
         routeOptions: {
             path: "sources",

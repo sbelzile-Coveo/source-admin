@@ -21,7 +21,7 @@
     "react-router-dom": "^4.2.2",
     "react-vapor": "^1.15.7",
     "redux-thunk": "^2.2.0",
-    "vapor-admin": "0.0.3"
+    "vapor-admin": "0.0.4"
   },
   "devDependencies": {
     "@types/jasmine": "2.8.6",

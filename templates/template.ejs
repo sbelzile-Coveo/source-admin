@@ -17,9 +17,9 @@
                 organizationId: "",
                 token: ""
             });
-            Vapor.initDemo();
-            SourceAdmin.register(Vapor.Application);
-            Vapor.Application.init(document.getElementById("app"));
+            var app = new Vapor.Application();
+            SourceAdmin.register(app);
+            app.init(document.getElementById("app"));
         })
     </script>
   </head>
